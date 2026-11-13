@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "crouchbreak",
+  "version": "1.0.0",
+  "name": "Crouch Break",
+  "description": "Crouch to control area breaking with axes and pickaxes.",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.crouchbreak.CrouchBreakMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
